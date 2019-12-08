@@ -1,0 +1,26 @@
+{
+    "name": "hanhdo/register",
+    "description": "Register User",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Do Hanh",
+            "email": "dovanhanh12b@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HanhDo\\Register\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HanhDo\\Register\\RegisterServiceProvider"
+            ]
+        }
+    }
+}
